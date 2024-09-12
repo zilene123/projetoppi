@@ -1,0 +1,71 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.table-container {
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.table td input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2fee95;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    background-color: #e7f7e7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.recovery {
+    background-color: #fff4e5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fail {
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,38 @@
+/* Estilos temáticos */
+.container {
+    background-color: #FFD700;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: #008080;
+}
+
+input[type="number"] {
+    padding: 8px;
+    margin: 10px;
+    border: 2px solid #FFA500;
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: #FF4500;
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #87CEEB;
+    color: white;
+    border: none;
+}

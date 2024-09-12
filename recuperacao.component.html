@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Recuperação</h2>
+    <p>Média parcial: {{mediaParcial}}</p>
+
+    <form>
+        <div>
+            <label for="nf">Nota Final: </label>
+            <input id="nf" name="nf" type="number" #nf>
+        </div>
+        <br>
+        <div>
+            <input class="btn btn-primary" type="button" value="Calcular Média Final" (click)="calcularMediaFinal(+nf.value)">
+        </div>
+    </form>
+
+    <!-- Exibição do resultado da média final após recuperação -->
+    <div *ngIf="mediaFinal > 0">
+        <p>Média final: {{mediaFinal}}</p>
+        <p>Situação: {{situacao}}</p>
+    </div>
+
+    <div>
+        <button class="btn btn-secondary" (click)="voltar()">Voltar</button>
+    </div>
+</div>
